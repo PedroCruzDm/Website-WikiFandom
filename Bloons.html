@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bloons TD</title>
+  <link rel="icon" type="image/x-icon" href="/img/icon.png">
+  <link href="css/principal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Logotipo -->
+    <img class="info-img" src="img/logobeta.png" alt="Logo">
+    <!-- Menu de navegação -->
+    <nav>
+      <!-- Lista de links -->
+      <ul>
+        <!-- Itens da lista -->
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="caixa-info">
+      <div class="capa-jogo">
+        <center>
+          <img class="info-img"
+            src="data:image/jpeg;base64,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"
+            alt="" width="200px" ; height="200px" ;>
+          <h1>Bloons TD 6</h1> <br>
+        </center>
+      </div>
+      <br>
+      <center>
+        <p style="font-size: 17px; margin-left: 30px; margin-right: 30px;">
+          <b>“ Os Bloons estão de volta e melhores do que nunca! Prepare-se para um enorme jogo de defesa de torre em 3D
+            projetado para oferecer horas e horas do melhor jogo de estratégia disponível.
+            Crie sua defesa perfeita a partir de uma combinação de incríveis torres de macacos, atualizações, heróis e
+            habilidades ativadas e, em seguida, estoure até o último Bloon que aparecer em seu caminho!”</b>
+        </p>
+      </center>
+      <div class="info-titulo">
+        <h4>Bloons TD 6</h4>
+      </div>
+      <p>Bloons TD 6 ( Bloons Tower Defense 6 ou BTD6 ) é a sexta parcela principal e o atual título principal da série
+        Bloons Tower Defense . Desenvolvido e publicado pela Ninja Kiwi , o jogo foi lançado em 13 de junho de 2018 para
+        Android e iOS, e posteriormente levado para Steam, Windows e Macintosh, e para consoles. Assim como os outros
+        jogos de defesa de torre da série BTD, o objetivo do Bloons TD 6 é evitar que balões inimigos, chamados de
+        "Bloons", atravessem uma pista e ceifem vidas, o que é cumprido pelo jogador colocando uma combinação de macaco-
+        torres baseadas para estourar os Bloons antes que eles possam escapar. Como uma sequência de Bloons TD 5 e seus
+        spinoffs geracionais , Bloons TD 6 apresenta gráficos 3D, mecânica de linha de visão , tipos adicionais de Bloon
+        (especificamente o Bloon Roxo , a propriedade Fortificada , e o Grande Dirigível da Perdição ), Heróis , 5º
+        atualizações de nível , um terceiro caminho de atualização, cosméticos expandidos e muito mais.</p>
+      
+      <p> As principais atualizações do Bloons TD 6 geralmente se concentram na implementação de mudanças de equilíbrio
+        nas torres, pelo menos 1 novo mapa e outros novos conteúdos. Isto inclui a adição de novos heróis , eventos
+        semanais , perfis públicos e modelos .</p>
+      
+      <p> Quatro novas torres foram adicionadas após o lançamento inicial do jogo: Mortar Monkey (v6.0), Engineer Monkey
+        (v12.0), Dartling Gunner (v22.0) e Beast Handler (v36.0). Muitos recursos do Bloons TD 5 Mobile e Bloons Monkey
+        City também retornam, incluindo Odysseys , Golden Bloon , Monkey Teams , Boss Bloon Events , Contested Territory
+        e Quests (Special Missions) .</p>
+      
+      <p> Bloons TD 6 está disponível para dispositivos móveis e desktop, que podem ser adquiridos por US$ 6,99 em lojas
+        móveis (originalmente US$ 4,99) e US$ 13,99 em lojas de desktop (originalmente US$ 9,99). Bloons TD 6+ é uma
+        versão exclusiva do Apple Arcade que pode ser jogada com um serviço Apple Arcade. Bloons TD 6 Netflix é um
+        aplicativo móvel publicado pela Netflix para promover sua biblioteca de jogos. Uma versão Xbox está disponível,
+        com conteúdo equivalente à versão 32.0 sem o recurso Contested Territory , e custa US$ 29,99.</p>
+      
+      <p> A partir de 18 de agosto de 2022 (anunciado nas notas do patch da versão 32.0 ), o custo das versões mobile e
+        desktop aumentou; versões móveis do Bloons TD 6 aumentaram US$ 2 (excluindo BTD6+) ou US$ 4 para versões
+        desktop.</p> <br>
+      
+      <div class="info-titulo">
+        <h4>Jogabilidade principal</h4>
+      </div>
+      <p>A jogabilidade em Bloons TD 6 é semelhante aos jogos anteriores. A jogabilidade principal é impedir que Bloons
+        inimigos cheguem à(s) saída(s), fazendo uma defesa que consiste em várias torres (chamadas de "Macacos" no jogo,
+        embora algumas claramente não sejam macacos). Popping Bloons renderá dinheiro e pode ser usado para comprar mais
+        torres ou atualizar torres existentes. Cada torre tem uma função diferente no jogo. O jogo é jogado de uma
+        perspectiva fixa de cima para baixo, assim como todos os outros jogos da série Bloons TD , mas Bloons TD 6 usa
+        gráficos 3D, diferente de qualquer outro jogo anterior.</p>
+      <br>
+      <p> Bloons TD 6 apresenta muitas novas mecânicas de jogo, incluindo Heróis , novos tipos de Bloon, atualizações de
+        5º nível e um terceiro caminho de atualização para cada macaco. Os DDTs , que apareceram pela primeira vez em
+        Bloons Monkey City , também retornam em Bloons TD 6. O jogo também introduz três novos tipos de Bloon: O BAD
+        (Big Airship of Doom) é o novo bloon mais forte do jogo e é imune a qualquer forma de desaceleração, repulsão ou
+        morte instantânea. Os Bloons Roxos são uma nova contraparte dos Bloons Preto e Branco e são imunes a armas de
+        fogo, plasma e energia. A propriedade Fortified Bloon é introduzida junto com as propriedades Camo e Regrow que
+        retornaram; bloons com esta propriedade são variações mais fortes de sua contraparte regular (a propriedade
+        Fortificada dobrará a saúde de todos os bloons aos quais é aplicada, exceto Leads , que quadruplica sua saúde).
+        Line of Sight é uma nova mecânica de jogo que aparece em certos mapas, onde certos tipos de obstáculos podem
+        impedir que certas torres os vejam.</p>
+
+      <p> Cada jogo é dividido em rodadas . Cada rodada normalmente consiste em um conjunto predefinido de bloons de
+        várias densidades e diferentes tipos de bloons, embora as rodadas do Modo Apopalypse sejam aleatórias em cada
+        novo jogo. Todas as rodadas introduzirão gradualmente mais tipos de Bloon e ficarão mais difíceis à medida que o
+        jogador avança. Antes de iniciar um jogo, os jogadores são solicitados a escolher um modo - Fácil, Médio ou
+        Difícil - e selecionar um submodo. A variedade de modos em Bloons TD 6 permite aos jogadores jogar o mesmo mapa
+        de muitas maneiras diferentes, tornando o jogo mais diversificado do que as versões anteriores da série Bloons
+        TD. Ao completar um jogo, os jogadores receberão uma certa quantia de Monkey Money com base na dificuldade do
+        mapa escolhido e no modo escolhido. Após a primeira conclusão de um mapa em uma dificuldade, a quantidade de
+        Monkey Money recompensada após a conclusão é significativamente reduzida.</p>
+
+      <p>Bloons da classe MOAB, como MOAB , BFB , ZOMG e DDT, retornam no BTD6, junto com o novo BAD bloon. Esses bloons
+        só aparecem nas rodadas 40+, porém, todos eles têm muita saúde. MOABs exigem 200 acertos para estourar, BFBs
+        exigem 700 acertos para estourar, ZOMGs exigem 4.000 acertos para estourar, DDTs exigem 400 acertos para
+        estourar e BADs exigem 20.000 acertos para estourar, todos ganhando mais saúde a cada rodada após a Rodada 80.
+        Depois de derrotar a Rodada 100, os jogadores receberão um " Insta-Monkey " que tem a chance de já ter upgrades
+        que podem ser colocados gratuitamente em qualquer modo exceto CHIMPS e desafios sem poderes.</p <P>Assim como no
+      BTD5, os jogadores podem ganhar Monkey Money para desbloquear mais coisas, incluindo poderes , novos heróis ,
+      certos cosméticos e desbloquear Monkey Knowledge mais profundo em conjunto com Monkey Knowledge Points. Existe uma
+      nova moeda rara no jogo chamada Troféus . Os troféus podem ser usadosna Loja de Troféus para desbloquear
+      cosméticos exclusivos não desbloqueáveis pelo Monkey Money.</P>
+      <br>
+      <div class="info-titulo">
+        <h4>Tuturial</h4>
+      </div>
+      <p>Ao jogar pela primeira vez, Tutorial Monkey dá um tutorial sobre como jogar. No mapa Centro da cidade , ele
+        declara o objetivo do jogo: "Impedir que os Bloons passem!" O jogador é então instruído a colocar um Dart Monkey
+        0-0-0 dentro do círculo designado. Depois de colocar um segundo Dart Monkey 0-0-0 em outra parte da pista, a
+        primeira rodada pode ser jogada. O Tutorial Monkey então aponta o botão Play, que é usado para iniciar a próxima
+        rodada.</p>
+      <br>
+      <p>Depois de vencer o segundo turno, ele ressalta que estourar Bloons dá experiência aos macacos: "Popping Bloons
+        dá experiência aos macacos!" Ele então instrui o jogador a tocar no ícone Dart Monkey para desbloquear uma
+        atualização. Ele diz ao jogador que “cada tipo de Macaco tem 5 atualizações em 3 caminhos”, após o que o jogador
+        é livre para escolher uma das atualizações de nível 1 do Dart Monkey para desbloquear.</p>
+      <br>
+      <p>Depois de desbloquear uma atualização, Tutorial Monkey diz ao jogador que ele precisa aplicar a atualização aos
+        Dart Monkeys em jogo para que eles possam usá-la.</p>
+      <br>
+      <p>Após completar o Round 3, chega Quincy , um dos treze heróis atuais. Tutorial Monkey diz ao jogador que Quincy
+        é um herói macaco que se atualiza ao longo do jogo.</p>
+
+      <p>Após a conclusão da Rodada 4, o jogador sobe de nível para o Nível 2, permitindo ao jogador desbloquear um
+        Macaco Primário. As opções para eles são Boomerang Monkey , Tack Shooter , Bomb Shooter , Ice Monkey e Glue
+        Gunner . O mesmo processo ocorre após a conclusão da Rodada 9, que é quando o jogador sobe de nível para o Nível
+        3, permitindo ao jogador desbloquear outro Macaco Primário.</p>
+      <br>
+      
+      <div class="sub-titulo">
+        <h4>Macacos</h4>
+      </div>
+      <p>Bloons TD 6 apresenta atualmente uma lista de 23 macacos (3 novos macacos e 20 retornando de jogos BTD
+        anteriores) e 13 heróis para ajudar a estourar bloons. Esses macacos são divididos em quatro classes: Primário ,
+        Militar , Mágico e Suporte . Os macacos variam desde simples Dart Monkeys até o todo-poderoso Super Monkey ,
+        cada um com seus próprios ataques, habilidades e pontos fortes. Monkey XP ainda existe, mas desta vez funciona
+        de maneira um pouco diferente. Os jogadores podem economizar Monkey XP para desbloquear atualizações na ordem
+        que desejarem, mas a quantidade de Monkey XP necessária aumenta à medida que avançam no caminho de atualização.
+        XP também pode ser salvo, permitindo que os jogadores sigam o caminho que desejarem, em vez de desbloqueá-los em
+        ordem. Cada macaco tem seu próprio conjunto de XP, então eles não podem usar o Dart Monkey XP para comprar
+        atualizações para o Bomb Shooter , por exemplo. Várias torres foram renomeadas de BTD5, nomeadamente Boomerang
+        Monkey (de Boomerang Thrower), Wizard Monkey (de Monkey Apprentice ), Bomb Shooter (de Bomb Tower), Ice Monkey
+        (de Ice Tower), Mortar Monkey (de Mortar Tower ), Dartling Gunner (de Dartling Gun ) e Engineer Monkey (de
+        Monkey Engineer ).</p>
+
+      <p>Cada macaco oferece um total de 15 atualizações que são divididas em 3 caminhos de 5 atualizações onde um
+        jogador pode obter dois caminhos: 1 caminho para o nível 5 e outro caminho para o nível 2. Se alguém atualizar
+        um caminho e depois outro, o caminho que era escolhido será fechado. Além disso, só pode haver uma atualização
+        de quinto nível para cada caminho na tela em todos os momentos (exceto para a atualização Crossbow Master , com
+        o conhecimento do macaco ativado conhecido como " Master Double Cross ", pode-se ter 2 Crossbow Masters em um
+        jogo. de 1). Além das 15 atualizações básicas, os macacos elegíveis podem ser atualizados para a atualização
+        Paragon definitiva, acessível apenas após a compra de todas as três atualizações de Nível 5 para um tipo de
+        macaco.</p>
+      <br>
+      <div class="sub-tabela">
+      <h2>Principais</h2>
+        </div>
+      <center>
+      <table id="macacos">
+        <tr>
+          <th>Torres</th>
+          <th>Descrição</th>
+          <th>Valor</th>
+        </tr>
+        <tr>
+          <td>Macaco Dardo</td>
+          <td>Lança um único dardo em Bloons próximos. Curto alcance e baixa perfuração, mas barato.</td>
+          <td>$ 170 / $ 200 / $ 215 / $ 240</td>
+        </tr>
+        <tr>
+          <td>Macaco Bumerangue</td>
+          <td>Lança um bumerangue que segue um caminho curvo. Bom alcance e perfuração.</td>
+          <td>US$ 275/US$ 325/US$ 350/US$ 390</td>
+        </tr>
+        <tr>
+          <td>Atirador de bomba</td>
+          <td>Lança uma bomba poderosa nos Bloons. Taxa de tiro lenta, mas afeta um raio ao redor da explosão</td>
+          <td>US$ 445/US$ 525/US$ 565/US$ 630</td>
+        </tr>
+        <tr>
+          <td>Macaco de Gelo</td>
+          <td>Estala e congela Bloons próximos por um curto período de tempo. Frozen Bloons são imunes a danos
+            cortantes. Não é possível congelar Bloons Brancos, Zebra ou Chumbo.</td>
+          <td>US$ 450/US$ 500/US$ 540/US$ 600</td>
+        </tr>
+        <tr>
+          <td>Atirador de cola</td>
+          <td>Atira uma gota de cola pegajosa que retarda Bloons em 50%.</td>
+          <td>$ 190 / $ 225 / $ 245 / $ 270</td>
+        </tr>
+      </table>
+      <br>
+      </center>
+      <br>
+        <div class="sub-tabela">
+      <h2>Militar</h2>
+        </div>
+      <center>
+      <table id="militar">
+        <tr>
+          <th>Torres</th>
+          <th>Descrição</th>
+          <th>Valor</th>
+        </tr>
+        <tr>
+          <td>Macaco Sniper</td>
+          <td>Pode atirar em Bloons que vê em qualquer lugar da tela com um rifle de longo alcance e dispara 2 camadas
+            de Bloons atingidos por ele.</td>
+          <td>$ 300 / $ 350 / $ 380 / $ 420</td>
+        </tr>
+        <tr>
+<td>Macaco Sub</td>
+          <td>Atira dardos torpedo em Bloons próximos. Deve ser colocado na água.</td>
+          <td>US$ 275/US$ 325/US$ 350/US$ 390</td>
+        </tr>
+        <tr>
+          <td>Macaco Bucaneiro</td>
+          <td>Atira um dardo único e pesado de ambos os lados do navio. Deve ser colocado na água.</td>
+          <td>$ 425/$ 500/$ 540/$ 600</td>
+        </tr>
+        <tr>
+          <td>Macado aereo</td>
+          <td>Voa acima do solo atirando saraivadas de dardos de alta perfuração.</td>
+          <td>US$ 680/US$ 800/US$ 865/US$ 960</td>
+        </tr>
+        <tr>
+          <td>Piloto de helicóptero</td>
+          <td>Paira onde quer que você o direcione. Atira de armas gêmeas de dardos pesados.</td>
+          <td>$ 1.360 / $ 1.600 / $ 1.730 / $ 1.920</td>
+        </tr>
+      </table>
+<br>
+  </main>
+
+        <div style="margin: 300px;"></div>
+        
+      <footer>
+    <div style="margin:20px;">
+      <img style="border-radius:50%; height: 90px; width: 90px;" src="img/logobeta.png" alt="Logo">
+      <hr style="height:2px;border-width:0;color:gray;background-color:white;">
+
+      <p>
+        <a href="index.html"style=" color: white; text-decoration: none; font-weight: bold;">Home</a>
+        <br>
+        <a href="sobre.html"style=" color: white; text-decoration: none; font-weight: bold;">Sobre</a>
+        <br>
+        <a href="contato.html"style=" color: white; text-decoration: none; font-weight: bold;">Contato</a>
+      </p>
+      <center>
+    <p>
+      <b>
+        Todos os direitos reservados &copy; 2023 <b>
+          <i> - O Famoso Pedro</i> <br>
+      </b>
+    </p>
+        </center>
+      <br>
+    </div>
+      </footer>
+      </header>
+      </div>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Contato</title>
+    <link rel="icon" type="image/x-icon" href="/img/icon.png">
+    <link href="css/principal.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Logotipo -->
+      <img href="index.html" class="info-img" src="img/logobeta.png" alt="Logo">
+      <!-- Menu de navegação -->
+      <nav>
+        <!-- Lista de links -->
+        <ul>
+          <!-- Itens da lista -->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      <!-- Conteúdo principal -->
+      <main>
+        <div class="caixa-info">
+          <center>
+            <h1>Fale conosco!</h1>
+            <br>
+            <form class="form-contato" id="contact-form">
+              <label for="nome">Nome:</label>
+              <input type="name" placeholder="Nome" id="nome" name="nome" required> <br>
+              <br>
+              <label for="email">E-mail:</label>
+              <input type="email" placeholder="E-mail" id="email" name="email" required> <br>
+              <br>
+              <label for="mensagem">Mensagem:</label>
+              <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea> <br>
+              <br>
+              <input class="btn-contato" type="submit" value="Enviar">
+            </form>
+          </center>
+        </div>
+      </main>
+
+    <div style="margin: 300px;"></div>
+    
+      <footer>
+    <div style="margin:20px;">
+      <img style="border-radius:50%; height: 90px; width: 90px;" src="img/logobeta.png" alt="Logo">
+      <hr style="height:2px;border-width:0;color:gray;background-color:white;">
+
+      <p>
+        <a href="index.html"style=" color: white; text-decoration: none; font-weight: bold;">Home</a>
+        <br>
+        <a href="sobre.html"style=" color: white; text-decoration: none; font-weight: bold;">Sobre</a>
+        <br>
+        <a href="contato.html"style=" color: white; text-decoration: none; font-weight: bold;">Contato</a>
+      </p>
+      <center>
+    <p>
+      <b>
+        Todos os direitos reservados &copy; 2023 <b>
+          <i> - O Famoso Pedro</i> <br>
+      </b>
+    </p>
+        </center>
+      <br>
+    </div>
+      </footer>
+      </header>
+      </div>
+
+    <script>
+      function sendEmail() {
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const message = document.getElementById("message").value;
+
+          const mailtoLink = mailto:joaopedropaulohenrique4@gmail.com?subject=Contato&body=Nome: ${name}%0D%0AE-mail:  ${email}%0D%0AMensagem: ${message};
+
+          window.location.href = mailtoLink;
+      }
+    </script>
+  </body>
+</html>

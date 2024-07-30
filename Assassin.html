@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Assassin's Creed</title>
+  <link rel="icon" type="image/x-icon" href="/img/icon.png">
+  <link href="css/principal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Logotipo -->
+    <img class="info-img" src="img/logobeta.png" alt="Logo">
+    <!-- Menu de navegação -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="caixa-info">
+      <div class="capa-jogos">
+        <center>
+          <img class="info-img"
+            src="data:image/jpeg;base64,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"
+            alt="" width="200px" ; height="200px" ;>
+          <div class="info-titulo">
+          <h1>Assassin's Creed</h1> 
+          </div>
+          <br>
+        </center>
+      </div>
+    
+      <center>
+        <p style="font-size: 17px; margin-left: 30px; margin-right: 30px;">
+          <i>"Jerusalém, século XII. Em meio ao caos da Terceira Cruzada, uma Irmandade de guerreiros subiu ao poder.
+            Envoltos em segredo, temidos por sua crueldade, só eles salvariam a Terra Santa ou a destruiriam. Eles eram
+            os Assassinos."</i>
+        <div style="margin-top: 40px;"></div>
+        <i><b> ― Trailer pré-E3 2006 de Assassin's Creed .</b></i>
+        </p>
+        
+        <br>
+        <p><b>Assassin's Creed</b>é umvideogame de ação, aventura e furtividade no estilo sandbox de 2007, desenvolvido
+          pela Ubisoft Montreal e publicado pela Ubisoft . O jogo foi lançado para Xbox 360 e PlayStation 3 em novembro
+          de 2007 e para PC em abril de 2008.</p>
+        <br>
+        <p>O jogo gira em torno da utilização de uma máquina batizada de “ Animus ”, que permite ao usuário visualizar
+          as memórias genéticas de seus ancestrais, centrada no protagonista, um bartender chamado Desmond Miles .
+          Enquanto Desmond revive as memórias de um de seus ancestrais, o Assassino Altaïr Ibn-La'Ahad , que viveu na
+          Terra Santa durante a Terceira Cruzada , detalhes de uma batalha entre duas seitas antigas - os Cavaleiros
+          Templários e a Ordem dos Assassinos - emergem como ambos. procure um artefato conhecido apenas como " Pedaço
+          do Éden ".</p>
+        <br>
+        <p>Assassin's Creed recebeu críticas principalmente positivas, tanto por sua história quanto por sua
+          jogabilidade, e recebeu vários prêmios na E3 de 2006. Em novembro de 2009, uma sequência na forma de
+          Assassin's Creed II foi lançada, com base nas bases estabelecidas por Assassin's Creed .</p>
+      
+        <div class="info-titulo">
+          <center>
+            <h3>Jogabilidade</h3>
+          </center>
+        </div>
+        <p>Assassin's Creed é um videogame não linear de ação e aventura, durante o qual o jogador controla um Assassino
+          Levantino do século XII chamado Altaïr Ibn-La'Ahad durante a Terceira Cruzada, cuja vida é vivenciada através
+          do Animus por seu descendente do século XXI, Desmond. Milhas. O objetivo geral do jogo é subir na hierarquia
+          da Ordem dos Assassinos, realizando uma série de assassinatos cometidos pelo líder da Ordem, Al Mualim . Ao
+          fazer isso, Altaïr viaja de Masyaf para cidades da Terra Santa, especificamente Jerusalém , Acre e Damasco .
+        </p>
+        <p>Ao chegar em qualquer uma das cidades, Altaïr deve localizar um Bureau de Assassinos e discutir suas tarefas
+          com o Rafiq local , um agente da Irmandade, obtendo conhecimentos básicos sobre seu alvo. A partir daí, cabe a
+          Altaïr realizar reconhecimento adicional por meio de espionagem , interrogatório , reunião com informantes e
+          coleta de itens importantes . Somente depois que Altaïr tiver reunido informações suficientes é que ele poderá
+          executar o assassinato. Depois de completar com sucesso um assassinato, Altaïr retorna a Masyaf para conversar
+          com Al Mualim, e é posteriormente recompensado com equipamento melhor, antes de receber os nomes de seus
+          próximos alvos.</p>
+        <p>Entre as memórias principais, Desmond deve direcionar Altaïr para pontos altos da cidade para sincronizar
+          ainda mais seus arredores e mapear a cidade onde Altaïr está atualmente localizado. Outras memórias
+          secundárias incluem rastrear e matar Templários , coletar bandeiras e salvar cidadãos que estão sendo
+          ameaçados. pelos guardas municipais .</p>
+        <p>Acompanhando isso, Altaïr precisa realizar a maior parte de suas ações sem ser notado pelos oficiais. O jogo
+          usa um medidor dependente de furtividade social para informar ao jogador o quão perceptível Altaïr é para os
+          indivíduos ao redor, incluindo os guardas, alterando a cor e o formato do logotipo da Abstergo; realizar
+          certas ações em determinados momentos pode ou não aumentar o nível de conscientização da área local. Se uma
+          área estiver em alerta máximo, indicado pelo logotipo ficando vermelho e toda a interface de sincronização
+          ganhando uma coloração e fundo vermelhos, os guardas estarão sempre vigilantes e os cidadãos se espalharão em
+          várias direções caso os guardas persigam e tentem derrubar Altair. Para reduzir a sua notoriedade, Altaïr deve
+          quebrar a linha de visão dos guardas e depois encontrar um esconderijo , misturar -se com estudiosos errantes
+          ou juntar-se aos cidadãos sentados em bancos.</p>
+        <p>Para conduzir muitos dos assassinatos e várias outras tarefas, Altaïr é capaz de executar comandos de alto e
+          baixo perfil, os quais afetam o nível de alerta. Comandos discretos permitirão que Altaïr se misture às
+          multidões, se esconda e use a Lâmina Oculta de Altaïr para tentar assassinatos silenciosos e discretos.
+          Comandos de alto perfil aumentam o estado de alerta em um nível maior e incluem corrida livre , ataque a
+          inimigos e tentativas de assassinato de alto perfil. Caso o jogador se depare com vários inimigos, pode-se
+          utilizar as habilidades de luta com espadas de Altaïr para combater os guardas.</p>
+        <p>Este jogo apresenta assassinatos aéreos e mortes em cadeia. Para isso, é necessário equipar a Lâmina Oculta,
+          subir até o topo de um prédio baixo ou pendurar-se em uma saliência em um ponto apropriado, depois olhar para
+          trás, segurar o botão de alto perfil e, por fim, pressionar o botão de ataque em direção ao alvo desejado
+          enquanto correr, pendurar-se em uma saliência, realizar uma ejeção na parede ou permanecer próximo ao alvo a
+          partir de uma altura adequada. Para mortes em cadeia, é necessário equipar a Lâmina Oculta enquanto estiver
+          travado em um inimigo; segure o botão de alto perfil e contra-ataque com a lâmina, e enquanto outro inimigo
+          reage de surpresa ou está distraído, corra para frente para assassiná-lo.</p>
+        <br>
+        <p>A saúde em Assassin's Creed é medida como o nível de sincronização entre as memórias de Desmond e Altaïr.
+          Sempre que Altaïr é ferido, isso é vivenciado como um desvio da memória real que ocorreu e a sincronização
+          diminui. Se houver uma dessincronização completa, a memória atual que Desmond está enfrentando se
+          desmaterializa e reinicia no último ponto de verificação estável.</p>
+        <p>Como as memórias de Altaïr são renderizadas pelo software Animus, " falhas " podem ocorrer frequentemente com
+          nucleotídeos e mensagens de erro aparecendo. Essas falhas podem ser usadas para ajudar a identificar alvos e,
+          se o jogador reagir rápido o suficiente, podem ser usadas para fornecer outros pontos de vantagem durante as
+          cutscenes.</p>
+        <div class="sub-titulo">
+          <h3>Sinopse</h3>
+        </div>
+        <br>
+      </center>
+      <p style="font-size: 20px; margin-left: 23px;">
+        <div class="sub-tabela">
+        <b>Trama</b>
+        </div>
+      </p>
+    
+      <center>
+        <br>
+        <p>Desmond Miles, um barman, é sequestrado pela empresa Abstergo Industries para ser usado como cobaia no
+          "Animus", um dispositivo que pode simular a memória genética . A Abstergo pretende colocar Desmond no
+          dispositivo para relembrar as memórias de seu ancestral, Altaïr Ibn-La'Ahad, membro da Irmandade dos
+          Assassinos no ano de 1191, que viveu durante a Terceira Cruzada na Terra Santa. Inicialmente, Desmond tem
+          problemas para se ajustar ao dispositivo, mas eventualmente revive as façanhas de Altaïr nos dias seguintes. O
+          jogo então muda principalmente para o ponto de vista de Altaïr, com transições ocasionais para Desmond, devido
+          a problemas com o Animus ou início do Efeito Sangramento .</p>
+        <br>
+        <p>O jogo começa com Desmond entrando na memória de Altaïr, mas ele logo enfrenta problemas de sincronização.
+          Nisto, as vozes de Lucy Stillman e Warren Vidic podem ser ouvidas, discutindo sobre a segurança de Desmond
+          dentro do Animus. Depois de passar por alguns problemas, Desmond sai da máquina virtual e Vidic o informa
+          sobre o funcionamento interno do Animus, antes de inicializar o programa tutorial da máquina. Depois que
+          Desmond termina o tutorial, ele entra na memória sincronizável mais próxima de Altaïr; Lucy acrescenta que
+          Desmond tem que reviver momentos-chave da vida de Altaïr para aumentar a sua sincronização, antes de chegar à
+          memória final que contém a informação que a Abstergo procura.</p>
+        <p>
+          <i>Altaïr</i> é mostrado pela primeira vez tentando recuperar um de uma série de artefatos conhecidos como
+          "Pedaços do Éden" do Templo de Salomão com a ajuda de Malik Al-Sayf e seu irmão Kadar , mas eles são impedidos
+          por Robert de Sablé , Grão-Mestre de os Cavaleiros Templários e inimigos jurados dos Assassinos. Ao recuperar
+          o tesouro, Altaïr quebra todos os três princípios do Assassins' Creed na tentativa de matar Robert, mas acaba
+          falhando. Na comoção seguinte, o irmão de Malik é morto e o braço esquerdo de Malik fica aleijado e
+          posteriormente amputado. Quando Altaïr retorna à fortaleza dos Assassinos em Masyaf com desculpas, Malik, que
+          sobreviveu a De Sablé, volta com o artefato e menospreza Altaïr por causa de sua arrogância.
+        </p>
+        <p>Quando o processo é concluído, Desmond descobre que a Abstergo é uma frente moderna dos Templários, e eles já
+          estão procurando outros artefatos em locais identificados nas memórias de Altaïr. Além disso, ele descobre que
+          os Assassinos modernos tentaram resgatá-lo antes que a memória fosse concluída, mas falharam. Depois disso,
+          Desmond seria morto por ordem de um Templário de alto escalão, Alan Rikkin , mas Lucy Stillman o salva da
+          morte e, a certa altura, enfia o dedo anelar na palma da mão, referindo-se à tradição dos Assassinos de cortar
+          fora do dedo.</p>
+        <p>Embora Desmond permaneça preso no laboratório Abstergo , sua experiência no Animus criou um Efeito de
+          Sangramento na vida de Altaïr, permitindo que Desmond usasse a Visão de Águia de Altaïr, que, por sua vez, lhe
+          permite ver mensagens estranhas pintadas nas paredes de Altaïr. seu quarto e o chão do laboratório. Todas as
+          mensagens tratam de várias formas de fim do mundo de diferentes culturas, incluindo várias referências a 21 de
+          dezembro de 2012 , data em que a Abstergo planeja lançar um satélite que “acabará permanentemente com a
+          guerra”. É sugerido que este método seria o mesmo que Al Mualim hipnotizou Masyaf, apenas em uma escala maior.
+          Finalmente, o jogo termina com Desmond se perguntando o que todas as imagens significam e quem poderia tê-las
+          desenhado.</p>
+        <br>
+      </center>
+      <div class="sub-tabela">
+        <h3>Desenvolvimento</h3>
+      </div>
+      <p style="font-size: 30px; margin-left: 23px;">
+
+          <b>Desenvolvimento de jogos</b>
+
+      <br>
+      </p>
+      <center>
+        <p>Após o lançamento de Prince of Persia: The Sands of Time em 2003 , o diretor criativo Patrice Désilets
+          desenvolveu um spin-off intitulado Prince of Persia: Assassin sobre um Assassino em Jerusalém protegendo um
+          príncipe com poderes mágicos. </p>
+<br>
+        <p>Os primeiros detalhes sobre o que se tornaria Assassin's Creed surgiram em meados de setembro de 2005,
+          durante a Tokyo Game Show , quando a GameSpot informou sobre o trailer da Ubisoft para um novo jogo em
+          produção com o título provisório de "Project Assassins". Nenhuma outra palavra foi ouvida até a E3 de 2006 ,
+          quando uma versão atualizada do trailer foi mostrada sob o nome de Assassin's Creed . Quando a GamesRadar
+          pressionou a Ubisoft para comentar depois de alegarem anteriormente que Assassin's Creed nunca havia sido
+          visualizado antes, um representante confirmou que "Project Assassins" e Assassin's Creed eram de fato a mesma
+          coisa.</p>
+
+        <p>Numa das entrevistas originais ao IGN, a produtora de jogos Jade Raymond descreveu Altaïr como um “assassino
+          medieval” com um “passado misterioso” e definitivamente não um viajante do tempo. [ citação necessária Em
+          outubro de 2007, uma entrevista da IGN Australia descreveu a habilidade do personagem principal de escalar e
+          correr livremente como sendo projetada pelos indivíduos que desenvolveram a mecânica para a série Prince of
+          Persia . </p>
+        <p>Em dezembro de 2006, Kristen Bell, que dublou a pesquisadora e funcionária da Abstergo Lucy Stillman, deu as primeiras informações concretas sobre a trama, confirmando o foco na memória genética e na busca de uma corporação por descendentes de um assassino. [4] A Ubisoft também lançou uma série de vídeos "Diários do Desenvolvedor" em 5 partes no site do jogo com membros da equipe de desenvolvimento, incluindo o diretor criativo Patrice Désilets e a produtora Jade Raymond, explicando os processos de pensamento por trás dos vários aspectos do jogo.</p>
+        <br>
+        <p>O jogo inicialmente tinha um modo multiplayer, mas foi cortado durante o desenvolvimento.</p>
+        <br>
+        <br>
+    </div>
+    </div>
+  </main>
+
+  <div style="margin: 300px;"></div>
+  
+    <footer>
+  <div style="margin:20px;">
+    <img style="border-radius:50%; height: 90px; width: 90px;" src="img/logobeta.png" alt="Logo">
+    <hr style="height:2px;border-width:0;color:gray;background-color:white;">
+
+    <p>
+      <a href="index.html"style=" color: white; text-decoration: none; font-weight: bold;">Home</a>
+      <br>
+      <a href="sobre.html"style=" color: white; text-decoration: none; font-weight: bold;">Sobre</a>
+      <br>
+      <a href="contato.html"style=" color: white; text-decoration: none; font-weight: bold;">Contato</a>
+    </p>
+    <center>
+  <p>
+    <b>
+      Todos os direitos reservados &copy; 2023 <b>
+        <i> - O Famoso Pedro</i> <br>
+    </b>
+  </p>
+      </center>
+    <br>
+  </div>
+    </footer>
+    </header>
+    </div>
+
+</body>
+</html>
